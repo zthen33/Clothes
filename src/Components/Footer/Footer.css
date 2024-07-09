@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin-top: 5%;
 }
 
 .footer-logo {
@@ -67,28 +68,28 @@
   }
 
   .footer-logo {
-      gap: 10px;
-      align-items: end;
+    gap: 10px;
+    align-items: end;
   }
 
   .footer-logo img {
-      width: 40px;
+    width: 40px;
   }
-  
+
   .footer-logo p {
-      font-size: 25px;
+    font-size: 25px;
   }
 
   .footer-links {
-      font-size: 14px;
-      gap: 10px;
+    font-size: 14px;
+    gap: 10px;
   }
 
   .footer-social-icon img {
-      width: 22px;
+    width: 22px;
   }
 
   .footer-copyright {
-      font-size: 13px;
+    font-size: 13px;
   }
 }

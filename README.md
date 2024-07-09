@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Các lệnh có sẵn
+Trong thư mục dự án, bạn có thể chạy:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`npm start`
+Chạy ứng dụng ở chế độ phát triển.
+Mở http://localhost:3000 để xem nó trong trình duyệt của bạn.
 
-## Available Scripts
+Trang sẽ tải lại khi bạn thực hiện thay đổi.
+Bạn cũng có thể thấy bất kỳ lỗi lint nào trong bảng điều khiển.
 
-In the project directory, you can run:
+`npm test`
+Khởi chạy trình chạy thử nghiệm ở chế độ xem tương tác.
+Xem phần về chạy thử nghiệm để biết thêm thông tin.
 
-### `npm start`
+`npm run build`
+Xây dựng ứng dụng cho sản xuất vào thư mục build.
+Nó kết hợp đúng cách React ở chế độ sản xuất và tối ưu hóa bản dựng cho hiệu suất tốt nhất.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Bản dựng được thu nhỏ và tên tệp bao gồm các băm.
+Ứng dụng của bạn đã sẵn sàng để triển khai!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Xem phần về triển khai để biết thêm thông tin.
 
-### `npm test`
+`npm run eject`
+Lưu ý: đây là thao tác một chiều. Khi bạn eject, bạn không thể quay lại!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Nếu bạn không hài lòng với công cụ xây dựng và các lựa chọn cấu hình, bạn có thể eject bất cứ lúc nào. Lệnh này sẽ loại bỏ phụ thuộc xây dựng đơn khỏi dự án của bạn.
 
-### `npm run build`
+Thay vào đó, nó sẽ sao chép tất cả các tệp cấu hình và các phụ thuộc chuyển tiếp (webpack, Babel, ESLint, v.v.) trực tiếp vào dự án của bạn để bạn có toàn quyền kiểm soát chúng. Tất cả các lệnh ngoại trừ eject vẫn sẽ hoạt động, nhưng chúng sẽ trỏ đến các tập lệnh được sao chép để bạn có thể chỉnh sửa chúng. Ở thời điểm này, bạn sẽ tự quản lý dự án của mình.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bạn không bao giờ phải sử dụng eject. Bộ tính năng được lựa chọn phù hợp cho các triển khai nhỏ và trung bình, và bạn không nên cảm thấy bắt buộc phải sử dụng tính năng này. Tuy nhiên, chúng tôi hiểu rằng công cụ này sẽ không hữu ích nếu bạn không thể tùy chỉnh nó khi bạn đã sẵn sàng.
