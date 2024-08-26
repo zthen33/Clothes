@@ -21,10 +21,14 @@ const Footer = () => {
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <img src={instagram_icon} alt="" />
+          <a rel="noreferrer" href="https://www.instagram.com/_zthen/">
+          <img src={instagram_icon} alt=""  />
+          </a>
         </div>
         <div className="footer-icons-container">
+          <a rel="noreferrer" href="https://picsart.com/u/zthen33">
           <img src={pintester_icon} alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
           <img src={whatsapp_icon} alt="" />
@@ -32,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <hr />
-        <p>Copyright @2024</p>
+        <p>Copyright @2024 | SHOPPER | All Rights Reserved</p>
       </div>
     </div>
   );
