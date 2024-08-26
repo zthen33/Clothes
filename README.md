@@ -29,3 +29,7 @@ Nếu bạn không hài lòng với công cụ xây dựng và các lựa chọn
 Thay vào đó, nó sẽ sao chép tất cả các tệp cấu hình và các phụ thuộc chuyển tiếp (webpack, Babel, ESLint, v.v.) trực tiếp vào dự án của bạn để bạn có toàn quyền kiểm soát chúng. Tất cả các lệnh ngoại trừ eject vẫn sẽ hoạt động, nhưng chúng sẽ trỏ đến các tập lệnh được sao chép để bạn có thể chỉnh sửa chúng. Ở thời điểm này, bạn sẽ tự quản lý dự án của mình.
 
 Bạn không bao giờ phải sử dụng eject. Bộ tính năng được lựa chọn phù hợp cho các triển khai nhỏ và trung bình, và bạn không nên cảm thấy bắt buộc phải sử dụng tính năng này. Tuy nhiên, chúng tôi hiểu rằng công cụ này sẽ không hữu ích nếu bạn không thể tùy chỉnh nó khi bạn đã sẵn sàng.
+
+`npm run dev`
+
+Chạy dự án
